@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../../assets/images/logo.png'
+import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
         
@@ -28,7 +29,7 @@ const NavBar = () => {
       <li tabIndex={0}></li>
       <li><a>User Profile</a></li>
       <li tabIndex={0}></li>
-      <a className="btn">Log In</a>
+      <li className="btn"><Link to="/login">Log In</Link></li>
     </ul>
   </div>
 
