@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { AuthContext } from '../provider/AuthProvider';
+import Swal from 'sweetalert2';
 
 const SignUp = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -12,6 +13,15 @@ const SignUp = () => {
       .then(result => {
         const loggedUser = result.user;
         console.log(loggedUser);
+        Swal.fire({
+          title: 'Signed Up Successfully',
+          showClass: {
+              popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+          }
+      });
       });
   };
 
@@ -91,7 +101,7 @@ const SignUp = () => {
                   className="input input-bordered"
                 />
                 <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                <p className="text-center mb-20"><small>Already have an account?</small><a href="/login" className="label-text-alt link link-hover text-yellow-500"> Log In</a></p> 
                 </label>
               </div>
               <div className="form-control mt-6">
