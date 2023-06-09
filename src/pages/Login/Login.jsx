@@ -1,7 +1,15 @@
+import { useContext } from "react";
+import { AuthContext } from "../../provider/AuthProvider";
+
+import { Link } from "react-router-dom";
 
 
 
 const Login = () => {
+    
+
+
+   const {} = useContext(AuthContext);
 
     const handleLogin = event => {
 
@@ -10,6 +18,11 @@ const Login = () => {
         const email = form.email.value;
         const password = form.password.value;
         console.log(email, password);
+        signIn(email, password)
+        .then(result => {
+            const user = result.user;
+            console.log(user);
+        })
     }
     return (
         <div className="hero min-h-screen bg-base-200">
@@ -42,6 +55,7 @@ const Login = () => {
           <input className="btn btn-primary" type="submit" value="Login"/>
         </div>
       </form>
+      <p className="text-center mb-20"><small>New to Photosen?<Link className="text-yellow-500"  to="/signup"> Register new account </Link></small></p>
     </div>
   </div>
 </div>
