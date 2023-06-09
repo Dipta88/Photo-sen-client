@@ -1,10 +1,10 @@
 import React from 'react';
-import error1 from '../assets/images/error1.jpg'
+import er from '../assets/images/er.jpg'
 const Error = () => {
     return (
-        <div className='w-3/4 pl-72 pt-20'>
+        <div className='w-full'>
         
-        <img src='error1' alt='error1'></img>
+        <img src={er} alt='error1'></img>
         </div>
     );
 };
