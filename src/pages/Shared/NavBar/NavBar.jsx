@@ -34,39 +34,46 @@ const NavBar = () => {
           </label>
         </div>
         <img className="ml-10" src={logo} alt="logo" />
-        <a className="btn btn-ghost normal-case text-xl">Photosen</a>
+        <a className="btn btn-ghost normal-case text-4xl">Photosen</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="/">Home</a>
+            <a className='text-2xl' href="/">Home</a>
           </li>
+          <li tabIndex={0}></li>
+          <li tabIndex={0}></li>
           <li tabIndex={0}></li>
           <li>
-            <a href="/">Instructor</a>
+            <a  className='text-2xl' href="/">Instructor</a>
           </li>
+          <li tabIndex={0}></li>
+          <li tabIndex={0}></li>
           <li tabIndex={0}></li>
           <li>
-            <a href="/">Classes</a>
+            <a  className='text-2xl' href="/">Classes</a>
           </li>
+          <li tabIndex={0}></li>
+          <li tabIndex={0}></li>
           <li tabIndex={0}></li>
           <li>
-            <a href="/">Dashboard</a>
+            <a  className='text-2xl' href="/">Dashboard</a>
           </li>
           <li tabIndex={0}></li>
-          <li>
-            <a href="/">User Profile</a>
-          </li>
           <li tabIndex={0}></li>
+          <li tabIndex={0}></li>
+      
+         
           {user ? (
             <li className="btn">
+              <span>{user.displayName}</span>
               <button onClick={handleLogOut} className="btn btn-ghost">
                 Log Out
               </button>
             </li>
           ) : (
             <li className="btn">
-              <Link to="/login">Log In</Link>
+              <Link className='text-2xl' to="/login">Log In</Link>
             </li>
           )}
         </ul>
