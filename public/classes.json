@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Introduction to Photography",
+      "instructor": "John Smith",
+      "availableSeats": 20,
+      "price": 99.99,
+      "numberOfStudents": 500,
+      "image": "https://i.pinimg.com/564x/fb/c7/e6/fbc7e6be9a9b9afb2802b292c7fe64ea.jpg"
+    },
+    {
+      "name": "Portrait Photography",
+      "instructor": "Emily Johnson",
+      "availableSeats": 15,
+      "price": 149.99,
+      "numberOfStudents": 400,
+      "image": "https://i.pinimg.com/564x/d6/70/09/d6700916e58d038f5f30f2a0344f89df.jpg"
+    },
+    {
+      "name": "Landscape Photography",
+      "instructor": "Michael Anderson",
+      "availableSeats": 10,
+      "price": 129.99,
+      "numberOfStudents": 350,
+      "image": "https://i.pinimg.com/736x/11/24/26/112426fa1734678d461c35ca60c7f046.jpg"
+    },
+    {
+      "name": "Street Photography",
+      "instructor": "Sarah Davis",
+      "availableSeats": 15,
+      "price": 119.99,
+      "numberOfStudents": 320,
+      "image": "https://i.pinimg.com/564x/72/b1/aa/72b1aa88baf16e85c23d888c20d07b8f.jpg"
+    },
+    {
+      "name": "Fashion Photography",
+      "instructor": "David Thompson",
+      "availableSeats": 12,
+      "price": 199.99,
+      "numberOfStudents": 300,
+      "image": "https://i.pinimg.com/564x/7d/95/a3/7d95a3812c80407c500d6796dc7b6d77.jpg"
+    },
+    {
+      "name": "Wildlife Photography",
+      "instructor": "Jennifer Roberts",
+      "availableSeats": 18,
+      "price": 179.99,
+      "numberOfStudents": 280,
+      "image": "https://i.pinimg.com/564x/56/90/a9/5690a9cc1283619f00a1e7c16877721f.jpg"
+    },
+    {
+      "name": "Product Photography",
+      "instructor": "Robert Wilson",
+      "availableSeats": 20,
+      "price": 99.99,
+      "numberOfStudents": 250,
+      "image": "https://i.pinimg.com/564x/12/72/53/127253f4c43ba2a2de1c475ca8eda502.jpg"
+    },
+    {
+      "name": "Travel Photography",
+      "instructor": "Amy Thompson",
+      "availableSeats": 15,
+      "price": 149.99,
+      "numberOfStudents": 220,
+      "image": "https://example.com/travel-photography.jpg"
+    },
+    {
+      "name": "Wedding Photography",
+      "instructor": "Daniel Miller",
+      "availableSeats": 10,
+      "price": 199.99,
+      "numberOfStudents": 200,
+      "image": "https://example.com/wedding-photography.jpg"
+    },
+    {
+      "name": "Fine Art Photography",
+      "instructor": "Sophia Anderson",
+      "availableSeats": 12,
+      "price": 159.99,
+      "numberOfStudents": 180,
+      "image": "https://example.com/fine-art-photography.jpg"
+    },
+    {
+      "name": "Food Photography",
+      "instructor": "Oliver Clark",
+      "availableSeats": 15,
+      "price": 129.99,
+      "numberOfStudents": 150,
+      "image": "https://example.com/food-photography.jpg"
+    },
+    {
+      "name": "Architectural Photography",
+      "instructor": "Isabella Martinez",
+      "availableSeats": 10,
+      "price": 149.99,
+      "numberOfStudents": 130,
+      "image": "https://example.com/architectural-photography.jpg"
+    },
+    {
+      "name": "Documentary Photography",
+      "instructor": "Matthew Turner",
+      "availableSeats": 20,
+      "price": 99.99,
+      "numberOfStudents": 120,
+      "image": "https://example.com/documentary-photography.jpg"
+    },
+    {
+      "name": "Macro Photography",
+      "instructor": "Victoria Brown",
+      "availableSeats": 18,
+      "price": 139.99,
+      "numberOfStudents": 100,
+      "image": "https://example.com/macro-photography.jpg"
+    },
+    {
+      "name": "Night Photography",
+      "instructor": "Nathan Hill",
+      "availableSeats": 15,
+      "price": 119.99,
+      "numberOfStudents": 80,
+      "image": "https://example.com/night-photography.jpg"
+    }
+  ]
+  

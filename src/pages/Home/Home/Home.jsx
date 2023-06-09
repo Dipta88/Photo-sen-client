@@ -1,5 +1,7 @@
 
 import Section from "../../My Section/Section";
+import PopularInstructors from "../../Popular Instructors/PopularInstructors";
+import PopularClasses from "../../PopularClasses/PopularClasses";
 import Banner from "../Banner/Banner";
 import Start from "../Start/Start";
 
@@ -9,6 +11,8 @@ const Home = () => {
         <Start></Start>
         <Banner></Banner>
         <Section></Section>
+        <PopularClasses></PopularClasses>
+        <PopularInstructors></PopularInstructors>
         </div>
     );
 };
