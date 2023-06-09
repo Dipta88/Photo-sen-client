@@ -51,7 +51,7 @@ const NavBar = () => {
           <li tabIndex={0}></li>
           <li tabIndex={0}></li>
           <li>
-            <a  className='text-2xl' href="/">Classes</a>
+            <a  className='text-2xl' href="classes">Classes</a>
           </li>
           <li tabIndex={0}></li>
           <li tabIndex={0}></li>

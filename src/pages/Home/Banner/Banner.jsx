@@ -11,7 +11,7 @@ import img6 from '../../../assets/images/img6.jpg'
 const Banner = () => {
     return (
         <div>
-        <div> <h1 className='text-5xl text-center mt-40 text-yellow-400'>Award Winning Pictures Of Our Students</h1></div>
+        <div> <h1 className='text-5xl text-center mt-40 text-yellow-400'>Award Winning Photography</h1></div>
         <Carousel className='max-w-screen-2xl mx-auto mt-10'>
         
                 <div>

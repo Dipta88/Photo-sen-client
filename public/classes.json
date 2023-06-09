@@ -61,7 +61,7 @@
       "availableSeats": 15,
       "price": 149.99,
       "numberOfStudents": 220,
-      "image": "https://example.com/travel-photography.jpg"
+      "image": "https://i.pinimg.com/564x/90/c0/a1/90c0a1070dde92baeaa58280fc2aa6a0.jpg"
     },
     {
       "name": "Wedding Photography",
@@ -69,7 +69,7 @@
       "availableSeats": 10,
       "price": 199.99,
       "numberOfStudents": 200,
-      "image": "https://example.com/wedding-photography.jpg"
+      "image": "https://i.pinimg.com/564x/e3/de/36/e3de36d35b81fbb4babbf70dbf1c9903.jpg"
     },
     {
       "name": "Fine Art Photography",
@@ -77,7 +77,7 @@
       "availableSeats": 12,
       "price": 159.99,
       "numberOfStudents": 180,
-      "image": "https://example.com/fine-art-photography.jpg"
+      "image": "https://i.pinimg.com/564x/f4/d7/4d/f4d74d32e40af65abb541772e7703e8d.jpg"
     },
     {
       "name": "Food Photography",
@@ -85,7 +85,7 @@
       "availableSeats": 15,
       "price": 129.99,
       "numberOfStudents": 150,
-      "image": "https://example.com/food-photography.jpg"
+      "image": "https://i.pinimg.com/564x/f6/f9/24/f6f92455f34eb2ead7af6f946ff5de51.jpg"
     },
     {
       "name": "Architectural Photography",
@@ -93,7 +93,7 @@
       "availableSeats": 10,
       "price": 149.99,
       "numberOfStudents": 130,
-      "image": "https://example.com/architectural-photography.jpg"
+      "image": "https://i.pinimg.com/564x/0d/02/61/0d02618e5b2fef37b4a32c9a5eb20f4f.jpg"
     },
     {
       "name": "Documentary Photography",
@@ -101,7 +101,7 @@
       "availableSeats": 20,
       "price": 99.99,
       "numberOfStudents": 120,
-      "image": "https://example.com/documentary-photography.jpg"
+      "image": "https://i.pinimg.com/564x/08/21/b8/0821b8d9e66ab7dee69af9c20d451df1.jpg"
     },
     {
       "name": "Macro Photography",
@@ -109,7 +109,7 @@
       "availableSeats": 18,
       "price": 139.99,
       "numberOfStudents": 100,
-      "image": "https://example.com/macro-photography.jpg"
+      "image": "https://i.pinimg.com/564x/de/d9/6e/ded96e0ed16d9f31de8e842cae01c525.jpg"
     },
     {
       "name": "Night Photography",
@@ -117,7 +117,7 @@
       "availableSeats": 15,
       "price": 119.99,
       "numberOfStudents": 80,
-      "image": "https://example.com/night-photography.jpg"
+      "image": "https://i.pinimg.com/736x/be/d3/02/bed302f8a654bda6e5d6a106af961414.jpg"
     }
   ]
   
