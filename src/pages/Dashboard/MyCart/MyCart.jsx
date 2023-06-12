@@ -7,7 +7,7 @@ const MyCart = () => {
     const total = classItem.reduce((sum, item) => item.price + sum, 0);
   
     const handleDelete = (classitemId) => {
-      fetch(`http://localhost:5000/classItem/${classitemId}`, {
+      fetch(`https://photosen-server-dipta88.vercel.app/classItem/${classitemId}`, {
         method: 'DELETE',
       })
         .then(() => {

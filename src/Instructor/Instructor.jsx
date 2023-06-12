@@ -6,7 +6,7 @@ const Instructor = () => {
 
 
   useEffect(() => {
-    fetch('http://localhost:5000/classes')
+    fetch('https://photosen-server-dipta88.vercel.app/classes')
       .then((res) => res.json())
       .then((data) => {
         setInstructors(data);

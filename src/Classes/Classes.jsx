@@ -24,7 +24,7 @@ const Classes = () => {
         email: user.email,
       };
 
-      fetch('http://localhost:5000/classItem', {
+      fetch('https://photosen-server-dipta88.vercel.app/classItem', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -64,7 +64,7 @@ const Classes = () => {
   };
 
   useEffect(() => {
-    fetch('http://localhost:5000/classes')
+    fetch('https://photosen-server-dipta88.vercel.app/classes')
       .then((res) => res.json())
       .then((data) => {
         setClasses(data);

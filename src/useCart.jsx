@@ -9,7 +9,7 @@ const useCart = () => {
   const { isLoading, data: classItem = [] } = useQuery({
     queryKey: ['classItem', user?.email],
     queryFn: async () => {
-      const response = await fetch(`http://localhost:5000/classes?email=${user.email}`);
+      const response = await fetch(`https://photosen-server-dipta88.vercel.app/classes?email=${user.email}`);
       return response.json();
     },
   });
