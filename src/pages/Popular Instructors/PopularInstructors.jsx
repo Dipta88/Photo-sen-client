@@ -4,7 +4,7 @@ const PopularInstructors = () => {
   const [popularInstructors, setPopularInstructors] = useState([]);
 
   useEffect(() => {
-    fetch('classes.json')
+    fetch('http://localhost:5000/classes')
       .then(res => res.json())
       .then(data => {
         const sortedInstructors = data.sort((a, b) => b.numberOfStudents - a.numberOfStudents);
@@ -22,7 +22,7 @@ const PopularInstructors = () => {
       <div className="popular-instructors-container grid grid-cols-3 gap-4 max-w-screen-xl mx-auto mt-10">
         {popularInstructors.map(instructor => (
           <div key={instructor.instructor} className="instructor-item text-center mb-40 mt-10">
-            <img src={instructor.image} alt={instructor.name} className="instructor-image w-48 h-48 mx-auto" />
+            <img src={instructor.instructorimage} alt={instructor.name} className="instructor-image w-48 h-48 mx-auto" />
             <h2 className="text-4xl text-yellow-500 mt-4">{instructor.instructor}</h2>
             <h2 className="text-xl text-yellow-500 mt-4">{instructor.name}</h2>
             <p className="text-lg">Number of Students: {instructor.numberOfStudents}</p>

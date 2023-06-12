@@ -4,7 +4,7 @@ const PopularClasses = () => {
   const [popularClasses, setPopularClasses] = useState([]);
 
   useEffect(() => {
-    fetch('classes.json')
+    fetch('http://localhost:5000/classes')
       .then(res => res.json())
       .then(data => {
         const sortedClasses = data.sort((a, b) => b.numberOfStudents - a.numberOfStudents);

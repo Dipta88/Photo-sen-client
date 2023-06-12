@@ -5,7 +5,10 @@
       "availableSeats": 20,
       "price": 99.99,
       "numberOfStudents": 500,
-      "image": "https://i.pinimg.com/564x/fb/c7/e6/fbc7e6be9a9b9afb2802b292c7fe64ea.jpg"
+      "image": "https://i.pinimg.com/564x/fb/c7/e6/fbc7e6be9a9b9afb2802b292c7fe64ea.jpg",
+      "availableClasses": 20,
+      "instructoremail": "jo@gmail.com",
+      "instructorimage":"https://i.pinimg.com/736x/f7/88/f8/f788f83a77ed7500768f9bdee70fb77d.jpg"
     },
     {
       "name": "Portrait Photography",
@@ -13,23 +16,35 @@
       "availableSeats": 15,
       "price": 149.99,
       "numberOfStudents": 400,
-      "image": "https://i.pinimg.com/564x/d6/70/09/d6700916e58d038f5f30f2a0344f89df.jpg"
+      "image": "https://i.pinimg.com/564x/d6/70/09/d6700916e58d038f5f30f2a0344f89df.jpg",
+      "availableClasses": 30,
+      "instructoremail":"em@gmail.com",
+      "instructorimage":"https://i.pinimg.com/564x/f2/cb/9f/f2cb9fe7647c86dacb06c854ba4a377f.jpg"
     },
+    
     {
       "name": "Landscape Photography",
       "instructor": "Michael Anderson",
       "availableSeats": 10,
       "price": 129.99,
       "numberOfStudents": 350,
-      "image": "https://i.pinimg.com/736x/11/24/26/112426fa1734678d461c35ca60c7f046.jpg"
+      "image": "https://i.pinimg.com/736x/11/24/26/112426fa1734678d461c35ca60c7f046.jpg",
+      "availableClasses": 50,
+      "instructoremail":"mic@gmail.com",
+      "instructorimage":"https://i.pinimg.com/736x/f9/b7/b3/f9b7b3469a024f28655e6604737e644d.jpg"
     },
+
     {
       "name": "Street Photography",
       "instructor": "Sarah Davis",
       "availableSeats": 15,
       "price": 119.99,
       "numberOfStudents": 320,
-      "image": "https://i.pinimg.com/564x/72/b1/aa/72b1aa88baf16e85c23d888c20d07b8f.jpg"
+      "image": "https://i.pinimg.com/564x/72/b1/aa/72b1aa88baf16e85c23d888c20d07b8f.jpg",
+      "availableClasses": 90,
+      "instructoremail": "sara@gmail.com",
+      "instructorimage":"https://i.pinimg.com/564x/91/59/f6/9159f63bd81c24efca6159e92a8cc05b.jpg"
+      
     },
     {
       "name": "Fashion Photography",
@@ -37,7 +52,10 @@
       "availableSeats": 12,
       "price": 199.99,
       "numberOfStudents": 300,
-      "image": "https://i.pinimg.com/564x/7d/95/a3/7d95a3812c80407c500d6796dc7b6d77.jpg"
+      "image": "https://i.pinimg.com/564x/7d/95/a3/7d95a3812c80407c500d6796dc7b6d77.jpg",
+      "availableClasses": 190,
+      "instructoremail": "david@gmail.com",
+      "instructorimage":"https://i.pinimg.com/736x/01/c7/51/01c751482ef7c4f5e93f3539efd27f6f.jpg"
     },
     {
       "name": "Wildlife Photography",
@@ -45,7 +63,10 @@
       "availableSeats": 18,
       "price": 179.99,
       "numberOfStudents": 280,
-      "image": "https://i.pinimg.com/564x/56/90/a9/5690a9cc1283619f00a1e7c16877721f.jpg"
+      "image": "https://i.pinimg.com/564x/56/90/a9/5690a9cc1283619f00a1e7c16877721f.jpg",
+      "availableClasses": 40,
+      "instructoremail": "jen@gmail.com",
+      "instructorimage":"https://i.pinimg.com/564x/6d/78/00/6d78007fa5c1728b3cdc1e7a36dccd48.jpg"
     },
     {
       "name": "Product Photography",
@@ -53,7 +74,10 @@
       "availableSeats": 20,
       "price": 99.99,
       "numberOfStudents": 250,
-      "image": "https://i.pinimg.com/564x/12/72/53/127253f4c43ba2a2de1c475ca8eda502.jpg"
+      "image": "https://i.pinimg.com/564x/12/72/53/127253f4c43ba2a2de1c475ca8eda502.jpg",
+      "availableClasses": 10,
+      "instructoremail": "rob@gmail.com",
+      "instructorimage":"https://i.pinimg.com/736x/57/a0/56/57a0565bd08aeb71e8875cb2c884fcbc.jpg"
     },
     {
       "name": "Travel Photography",
@@ -61,7 +85,10 @@
       "availableSeats": 15,
       "price": 149.99,
       "numberOfStudents": 220,
-      "image": "https://i.pinimg.com/564x/90/c0/a1/90c0a1070dde92baeaa58280fc2aa6a0.jpg"
+      "image": "https://i.pinimg.com/564x/90/c0/a1/90c0a1070dde92baeaa58280fc2aa6a0.jpg",
+      "availableClasses": 90,
+      "instructoremail": "amy@gmail.com",
+      "instructorimage":"https://i.pinimg.com/564x/78/79/8e/78798e2cf2e214df64caefbf0c5e8e73.jpg"
     },
     {
       "name": "Wedding Photography",
@@ -69,7 +96,10 @@
       "availableSeats": 10,
       "price": 199.99,
       "numberOfStudents": 200,
-      "image": "https://i.pinimg.com/564x/e3/de/36/e3de36d35b81fbb4babbf70dbf1c9903.jpg"
+      "image": "https://i.pinimg.com/564x/e3/de/36/e3de36d35b81fbb4babbf70dbf1c9903.jpg",
+      "availableClasses": 80,
+      "instructoremail": "dan@gmail.com",
+      "instructorimage":"https://i.pinimg.com/564x/5c/64/2b/5c642b96c8c9670e532e561786167294.jpg"
     },
     {
       "name": "Fine Art Photography",
@@ -77,7 +107,10 @@
       "availableSeats": 12,
       "price": 159.99,
       "numberOfStudents": 180,
-      "image": "https://i.pinimg.com/564x/f4/d7/4d/f4d74d32e40af65abb541772e7703e8d.jpg"
+      "image": "https://i.pinimg.com/564x/f4/d7/4d/f4d74d32e40af65abb541772e7703e8d.jpg",
+      "availableClasses": 0,
+      "instructoremail": "sophie@gmail.com",
+      "instructorimage":"https://i.pinimg.com/564x/73/ff/a1/73ffa1fc45dc2283712fa4075582d8d7.jpg"
     },
     {
       "name": "Food Photography",
@@ -85,7 +118,10 @@
       "availableSeats": 15,
       "price": 129.99,
       "numberOfStudents": 150,
-      "image": "https://i.pinimg.com/564x/f6/f9/24/f6f92455f34eb2ead7af6f946ff5de51.jpg"
+      "image": "https://i.pinimg.com/564x/f6/f9/24/f6f92455f34eb2ead7af6f946ff5de51.jpg",
+      "availableClasses": 16,
+      "instructoremail":"oliver@gmail.com",
+      "instructorimage":"https://i.pinimg.com/736x/22/96/00/2296009db0438b338459585bb5364f3e.jpg"
     },
     {
       "name": "Architectural Photography",
@@ -93,7 +129,10 @@
       "availableSeats": 10,
       "price": 149.99,
       "numberOfStudents": 130,
-      "image": "https://i.pinimg.com/564x/0d/02/61/0d02618e5b2fef37b4a32c9a5eb20f4f.jpg"
+      "image": "https://i.pinimg.com/564x/0d/02/61/0d02618e5b2fef37b4a32c9a5eb20f4f.jpg",
+      "availableClasses": 10,
+      "instructoremail": "issabella@gmail.com",
+      "instructorimage":"https://i.pinimg.com/736x/c7/3a/df/c73adf66b21e0429f661bfd69ff487ee.jpg"
     },
     {
       "name": "Documentary Photography",
@@ -101,7 +140,10 @@
       "availableSeats": 20,
       "price": 99.99,
       "numberOfStudents": 120,
-      "image": "https://i.pinimg.com/564x/08/21/b8/0821b8d9e66ab7dee69af9c20d451df1.jpg"
+      "image": "https://i.pinimg.com/564x/08/21/b8/0821b8d9e66ab7dee69af9c20d451df1.jpg",
+      "availableClasses": 33,
+      "instructoremail": "matt@gmail.com",
+      "instructorimage":"https://i.pinimg.com/564x/cb/20/63/cb20631d70bca8880b9e84b93098cc4e.jpg"
     },
     {
       "name": "Macro Photography",
@@ -109,7 +151,10 @@
       "availableSeats": 18,
       "price": 139.99,
       "numberOfStudents": 100,
-      "image": "https://i.pinimg.com/564x/de/d9/6e/ded96e0ed16d9f31de8e842cae01c525.jpg"
+      "image": "https://i.pinimg.com/564x/de/d9/6e/ded96e0ed16d9f31de8e842cae01c525.jpg",
+      "availableClasses": 20,
+      "instructoremail": "victoria@gmail.com",
+      "instructorimage":"https://i.pinimg.com/564x/9e/b0/6a/9eb06a598ff37e035e5e2978d8ac7328.jpg"
     },
     {
       "name": "Night Photography",
@@ -117,7 +162,10 @@
       "availableSeats": 15,
       "price": 119.99,
       "numberOfStudents": 80,
-      "image": "https://i.pinimg.com/736x/be/d3/02/bed302f8a654bda6e5d6a106af961414.jpg"
+      "image": "https://i.pinimg.com/736x/be/d3/02/bed302f8a654bda6e5d6a106af961414.jpg",
+      "availableClasses": 30,
+      "instructoremail": "nathan@gmail.com",
+      "instructorimage":"https://i.pinimg.com/736x/58/b8/e3/58b8e399aee619da3e4dac0dd9560444.jpg"
     }
   ]
   

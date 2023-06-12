@@ -45,7 +45,7 @@ const NavBar = () => {
           <li tabIndex={0}></li>
           <li tabIndex={0}></li>
           <li>
-            <a  className='text-2xl' href="/">Instructor</a>
+            <a  className='text-2xl' href="instructor">Instructor</a>
           </li>
           <li tabIndex={0}></li>
           <li tabIndex={0}></li>
@@ -57,7 +57,7 @@ const NavBar = () => {
           <li tabIndex={0}></li>
           <li tabIndex={0}></li>
           <li>
-            <a  className='text-2xl' href="/">Dashboard</a>
+            <a  className='text-2xl' href="/dashboard/mycart">Dashboard</a>
           </li>
           <li tabIndex={0}></li>
           <li tabIndex={0}></li>

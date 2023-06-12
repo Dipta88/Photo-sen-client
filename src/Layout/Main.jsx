@@ -14,7 +14,9 @@ const Main = () => {
         <Outlet></Outlet>
         
         { noHeaderFooter || <Footer></Footer>}
+        
         </div>
+        
     );
 };
 

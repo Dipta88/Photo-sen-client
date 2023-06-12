@@ -9,7 +9,7 @@ const Section = () => {
   return (
     <div>
         <h1 className='text-6xl text-center text-yellow-500 mt-40'>Gallery</h1>
-      <div className="grid grid-cols-3 gap-4  max-w-screen-2xl mx-auto mt-10 mb-20">
+      <div className="grid grid-cols-3 gap-5 w-50  max-w-screen-2xl mx-auto mt-10 mb-20">
         <div>
           <img src={al1} alt="al1"/>
          
